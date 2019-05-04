@@ -9,7 +9,7 @@
     <application>
         <!-- Android 7.0 照片、APK下载保存路径-->
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name=".RNDMFileProvider"
             android:authorities="com.mayenjoy.RNDownloadManager.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
