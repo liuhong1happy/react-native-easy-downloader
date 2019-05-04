@@ -1,8 +1,13 @@
 {
-  "name": "react-native-easy-downloader",
+  "name": "@17ued/react-native-easy-downloader",
   "version": "0.1.0",
   "description": "Download files using system download manager and install apk files",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "android"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
